@@ -7,6 +7,7 @@
       "name": "blueberry",
       "appearance": "dark",
       "style": {
+        "selection": "#fcc5e9",
         "border": "#ffffff10",
         "border.variant": "#ffffff10",
         "border.focused": "#ffffff10",
@@ -136,7 +137,13 @@
         "warning": "#fffac2",
         "warning.background": "#1b1e28",
         "warning.border": "#ffffff10",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#ADD7FF",
+            "background": "#ADD7FF",
+            "selection": "#fcc5e980"
+          }
+        ],
         "syntax": {
           "comment": { "color": "#767c9dB0", "font_style": "italic" },
           "comment.doc": { "color": "#767c9dB0", "font_style": "italic" },
@@ -217,7 +224,7 @@
         "tab_bar.background": "#1b1e28df",
         "tab.inactive_background": "#1b1e28df",
         "tab.active_background": "#3033408000",
-        "search.match_background": null,
+        "search.match_background": "#91B4D5",
         "panel.background": "#1b1e2800",
         "panel.focused_border": null,
         "pane.focused_border": null,
